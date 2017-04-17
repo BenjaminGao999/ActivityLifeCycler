@@ -1,0 +1,14 @@
+1、Activity lifeCycler笔记
+
+在MainActivity启动MainActivity2，并调用finish方法
+
+04-17 03:34:18.930 6246-6246/com.adnonstop.activitylifecycler I/MainActivity: onCreate: 1111111111111111111111
+04-17 03:34:18.932 6246-6246/com.adnonstop.activitylifecycler I/MainActivity: onStart: 11111111111111111111111111
+04-17 03:34:18.932 6246-6246/com.adnonstop.activitylifecycler I/MainActivity: onResume: 1111111111111111111111
+启动MainActivity2
+04-17 03:34:20.929 6246-6246/com.adnonstop.activitylifecycler I/MainActivity: onPause: 111111111111111111111111
+04-17 03:34:20.957 6246-6246/com.adnonstop.activitylifecycler I/MainActivity2: onCreate: 2222222222222222222222222
+04-17 03:34:20.964 6246-6246/com.adnonstop.activitylifecycler I/MainActivity2: onStart: 2222222222222222222222222
+04-17 03:34:20.965 6246-6246/com.adnonstop.activitylifecycler I/MainActivity2: onResume: 22222222222222222222222222
+04-17 03:34:21.695 6246-6246/com.adnonstop.activitylifecycler I/MainActivity: onStop: 1111111111111111111111111
+04-17 03:34:21.695 6246-6246/com.adnonstop.activitylifecycler I/MainActivity: onDestroy: 11111111111111111111111
